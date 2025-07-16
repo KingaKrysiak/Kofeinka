@@ -1,0 +1,137 @@
+Cele biznesowe
+- Skrócić średni czas obsługi zamówienia z 12 min do 6 min.
+- Zmniejszyć liczbę błędnych zamówień o 30%.
+- Poprawić UX aplikacji mobilnej w kontekście zamówień niestandardowych.
+- Umożliwić dynamiczne zarządzanie dostępnością składników (np. brak mleka owsianego).
+
+Analiza interesariuszy
+- Barista (Przygotowuje zamówienia, obsługuje system)
+- Kierowniczka lokalu (Zarządza operacjami, monitoruje efektywność)
+- Klient (Składa zamówienia, ocenia jakość obsługi)
+- Dział IT (Wdraża i utrzymuje rozwiązania techniczne)
+- Kierownictwo regionalne (Decyduje o budżecie i strategii, wymaga raportów)
+- Zespół UX (Projektuje interfejs i flow aplikacji)
+- Dostawcy składników (Dostarczają mleko, ziarna etc. – kluczowi w zarządzaniu dostępnością)
+
+As-is process
+1. Wejście klienta:
+   – Klient wchodzi do kawiarni, rozgląda się za menu- wyświetla się nad ladą na ekranach.
+   – Czasem nie ma pełnej informacji o aktualnych promocjach, nowościach czy dostępnych smakach syropów.
+2. Złożenie zamówienia:
+   – Klient podchodzi do baristy i ustnie składa zamówienie.
+   – Barista wprowadza zamówienie do systemu.
+   – Czasem pojawiają się nieporozumienia (np. „średnia latte” rozumiana inaczej przez klienta i baristę).
+   – Barista ręcznie wpisuje niestandardowe opcje.
+3. Płatność:
+   – Klient płaci (gotówka lub karta).
+   – Paragon jest drukowany, ale nie zawsze wręczany – część klientów go nie chce.
+   – Brak integracji z aplikacją lojalnościową – punkty za zakupy są dodawane osobno, jeśli klient o to poprosi.
+4.  Przygotowanie napoju:
+   – Barista przygotowuje napój, najczęściej samodzielnie.
+   – Jeśli kolejka jest długa, może dochodzić do opóźnień.
+   – Komunikacja między baristami (jeśli pracuje ich więcej) bywa chaotyczna – nie ma systemu zarządzania kolejnością zamówień poza ustnym przekazywaniem.
+5. Odbiór zamówienia:
+   – Barista wywołuje imię klienta lub rodzaj napoju („latte na mleku owsianym!”).
+   – Jeśli jest głośno lub kilka osób czeka, klient może nie usłyszeć i opóźnia się odbiór.
+   – Zdarzają się pomyłki (klient bierze nie swoją kawę).
+6. Obsługa po sprzedaży:
+   – Klient może podejść z reklamacją – np. „miała być bez cukru!”
+   – Brak systemu rejestrowania skarg czy informacji zwrotnej.
+   – Opinie są zbierane tylko przez opinie Google.
+7.  Raportowanie i analiza:
+   – Kierowniczka lokalu raz dziennie zlicza obroty systemu.
+   – Dane nie są automatycznie przekazywane do centrali.
+   – Trudno analizować popularność produktów czy godziny szczytu.
+
+Zidentyfikowane bóle:
+- Braki w informacji i komunikacji
+- Niepełne lub nieaktualne menu: brak jasnych informacji o promocjach, dostępnych dodatkach itp.
+- Niejednoznaczne zamówienia: różne rozumienie wielkości czy składników napojów przez klientów i baristów.
+- Brak jasnej komunikacji między baristami – chaos przy większym obłożeniu.
+
+Brak automatyzacji i integracji
+- Ręczne dodawanie niestandardowych opcji – zwiększa ryzyko błędów.
+- Brak integracji systemu z programem lojalnościowym – punkty dodawane tylko „na życzenie”.
+- Dane sprzedażowe nie są przekazywane automatycznie.
+
+Błędy i pomyłki
+- Barista może źle zrozumieć zamówienie – np. zamienić mleko zwykłe z roślinnym.
+- Brak systemu śledzenia zamówień prowadzi do błędów przy wydawaniu (klient zabiera nie swoją kawę).
+- Reklamacje obsługiwane są chaotycznie, bez rejestrowania.
+
+Straty czasu i kolejki
+- Długi czas obsługi w godzinach szczytu.
+- Brak cyfrowego systemu kolejkowego – klienci nie wiedzą, kiedy ich napój będzie gotowy.
+- Oczekiwanie na obsługę lub kasę powoduje frustrację.
+
+Brak danych i analizy
+- Brak danych w czasie rzeczywistym o sprzedaży, popularności produktów, godzinach szczytu.
+- Brak rejestru opinii i zgłoszeń – brak wiedzy o problemach klientów.
+- Kierowniczka analizuje obroty ręcznie – opóźnienia i podatność na błędy.
+
+Problemy przy odbiorze zamówienia
+- Wywoływanie zamówień „na głos” działa słabo w hałaśliwym otoczeniu.
+- Brak monitorów lub numerków zwiększa ryzyko pomyłek.
+- Klient może nie usłyszeć swojego napoju i opóźnić odbiór.
+
+
+To-be process
+Wejście klienta:
+- Klient wchodzi do kawiarni i widzi cyfrowe menu na ekranie przy wejściu lub dostępne w aplikacji mobilnej.
+- Menu jest dynamiczne — pokazuje aktualne promocje, czas oczekiwania, polecane napoje, filtry (bez cukru, roślinne mleko, nowości itd.).
+
+Złożenie zamówienia:
+Opcja 1: Aplikacja mobilna (zalogowany użytkownik):
+- Klient wybiera produkty, modyfikuje składniki, dodaje do koszyka.
+- Zamówienie trafia automatycznie do systemu POS.
+- Klient płaci w aplikacji i otrzymuje numer zamówienia + szacowany czas odbioru.
+- Punkty lojalnościowe dodają się automatycznie.
+
+Opcja 2: Kiosk samoobsługowy na miejscu:
+- Klient korzysta z intuicyjnego panelu (ekran dotykowy) – menu takie jak w apce.
+- Płatność bezgotówkowa na miejscu.
+- Wydruk/paragon z numerkiem zamówienia.
+
+Opcja 3: Tradycyjna obsługa:
+- Klient podchodzi do baristy, który korzysta z nowego, bardziej przejrzystego POS-a.
+- System pokazuje sugerowane dodatki i ułatwia konfigurację napoju.
+- Automatyczna integracja z systemem lojalnościowym.
+
+Przygotowanie napoju:
+- Zamówienie trafia na ekran baristy z kolejnością i szczegółami.
+- System optymalizuje kolejkę według czasu zamówienia i złożoności.
+- Barista może oznaczyć etap realizacji: „w trakcie”, „gotowe do odbioru”.
+
+Odbiór:
+- Klient widzi swój numer na monitorze z napisem „gotowe do odbioru” lub dostaje powiadomienie push.
+- Odbiera napój z półki odbiorów, bez konieczności rozmowy.
+- Numer zamówienia jest na kubku.
+
+Opinie i reklamacje:
+- W aplikacji klient może dodać opinię lub zgłosić problem.
+- System przypisuje zgłoszenia do konkretnego lokalu i umożliwia analizę przez kierowniczkę.
+- W przypadku błędów klient może otrzymać automatyczny kod rabatowy.
+
+Zarządzanie i analityka:
+- Wszystkie dane (zamówienia, składniki, czas realizacji, popularność produktów) trafiają do panelu analitycznego.
+- Kierowniczka widzi trendy, problemy i może zamawiać składniki automatycznie wg zużycia.
+- Raporty generowane codziennie automatycznie.
+
+Integracje dodatkowe:
+- Integracja z systemem dostawców – automatyczne zamówienia.
+- Integracja z systemem zarządzania relacjami z klientami – kampanie lojalnościowe, oferty spersonalizowane.
+- Tryb offline – w razie awarii sieci systemu działa lokalnie i synchronizuje dane później.
+
+Wymagania
+- Biznesowe: użytkownik końcowy musi otrzymać zamówienie zgodne z preferencjami.
+- Funkcjonalne: system umożliwia oznaczanie składników jako niedostępne.
+- Niefunkcjonalne: czas odpowiedzi API do 1 sekundy.
+
+Propozycje rozwiązań
+- Nowy flow aplikacji z dynamicznym menu.
+- Dashboard dla baristów (status zamówień w czasie rzeczywistym).
+- Mikroserwis do zarządzania składnikami.
+
+Hipotezy i pomiary
+- Jeśli wprowadzimy powiadomienia push, liczba porzuconych zamówień spadnie o 15%.
+- Nowy flow zmniejszy czas obsługi o 50%.
